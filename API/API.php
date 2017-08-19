@@ -4,6 +4,7 @@ $app->post("/Signup",function($req,$res){
 //get the data from request Body 
 
 $data= $req->getParsedBody();
+//$Name= $req->getParsedBodyParam("Name");
 
 //Save the data on DB
 try{

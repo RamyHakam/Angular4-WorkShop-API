@@ -26,6 +26,7 @@ require __DIR__ . '/../src/middleware.php';
 // Register routes
 require __DIR__ . '/../API/API.php';
 require __DIR__ . '/../API/SingIn.php';
+require __DIR__ . '/../API/c.php';
 
 // Run app
 $app->run();
